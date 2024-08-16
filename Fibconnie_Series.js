@@ -33,7 +33,7 @@ console.log(fibseries(n));*/
 let n = 12;
 console.log(fib(n));*/
 
-function fibconni(fib){
+/*function fibconni(fib){
      let fibr = [0,1];
      for(let i = 2 ;i<fib ; i++){
          fibr[i] = fibr[i-1] + fibr[i-2];
@@ -41,5 +41,24 @@ function fibconni(fib){
      return fibr;
 }
 let n= 12;
-console.log(fibconni(n));
+console.log(fibconni(n));*/
+/*function fibconni(n){
+    let fb = [0,1];
+    for(let s = 2 ; s<n ; s++){
+        fb[s] = fb[s-1] + fb[s-2];
+    }
+    return fb;
+}
+let boom = 14;
+console.log(fibconni(boom))*/
+
+function fibconni(n){
+    let fibr = [0,1];
+    for(i=2;i<n;i++){
+         fibr[i] = fibr[i-1] + fibr[i-2];
+    }
+    return fibr;
+}
+let b = 14;
+console.log(fibconni(b))
 
