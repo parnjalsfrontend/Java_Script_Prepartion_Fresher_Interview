@@ -15,7 +15,7 @@
  return secondmin
 }*/
 
-function myarray(arr){
+/*function myarray(arr){
     if(arr>2){
         throw new Error('Array should be More than 2 character')
     }
@@ -46,4 +46,20 @@ function min(arr){
             console.log(arr[i])
          }
      }
+}*/
+
+function myarray(arr){
+     if(arr.length === 0){
+         return null;
+     }
+     let min = arr[0];
+     for(let i =0 ;i<arr.length;i++){
+         if(arr[i]<min){
+             min = arr[i]
+         }
+     }
+     return min;
 }
+const a = [12,11,9,8];
+const p = myarray(a);
+console.log(p);

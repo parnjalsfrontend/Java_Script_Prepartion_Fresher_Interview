@@ -60,7 +60,7 @@ for (let i = start; i <= end; i++) {
 // Output the array
 console.log(divisible);*/
 
-let start = 1;
+/*let start = 1;
 let end = 50;
 
 let divisble = [];
@@ -70,4 +70,15 @@ for(let i=start;i<=end ;i++){
         divisble.push(i)
      }
 }
-console.log(divisble);
+console.log(divisble);*/
+let Number = [12, 13, 14, 18, 19, 21];
+function even(arr) {
+  arr.forEach((Number) => {
+    if (Number % 2 === 0) {
+      console.log(Number + "Is Even");
+    } else {
+      console.log(Number + "Is Odd");
+    }
+  });
+  even(Number);
+}

@@ -52,3 +52,13 @@ console.log(factorial(5));*/
       return n*factorial(n-1);
 }
 console.log(factorial(6));*/
+
+function factorial(n){
+    if(n<=0){
+        return "Number Should Be More than 0"
+    }else if(n=== 0 || n === 1){
+        return 1;
+    }
+    return n*factorial(n-1);
+}
+console.log(factorial(5));

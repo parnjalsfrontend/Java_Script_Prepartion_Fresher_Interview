@@ -57,3 +57,17 @@ console.log(myarray(15));*/
 }
 console.log(myarray(12));
 console.log(myarray(17));*/
+/*function myarray(num){
+   if(num <=1){
+      return false;
+   }
+   if(num === 2){
+       return true;
+   }
+   if(num % 2 ===0){
+       return false;
+   }
+   return true;
+}
+console.log(myarray(13));
+console.log(myarray(18));*/
