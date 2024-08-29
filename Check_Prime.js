@@ -57,6 +57,7 @@ console.log(myarray(15));*/
 }
 console.log(myarray(12));
 console.log(myarray(17));*/
+
 /*function myarray(num){
    if(num <=1){
       return false;
@@ -71,3 +72,34 @@ console.log(myarray(17));*/
 }
 console.log(myarray(13));
 console.log(myarray(18));*/
+
+// function myarray(num){
+//     if(num <= 1){
+//       return false;
+//     }
+//     if(num %2 === 0){
+//       return false;
+//     }
+//     if(num === 2){
+//       return true;
+//     }
+//     return true;
+// }
+// console.log(myarray(13));
+// console.log(myarray(19));
+
+// function myarray(num){
+//     if(num <= 1){
+//       return false;
+//     }
+//     if(num % 2 === 0){
+//       return false;
+//     }
+//     if(num % 2 === 0){
+//       return true;
+//     }
+//     return true;
+// }
+
+// console.log(myarray(14));
+// console.log(myarray(25));

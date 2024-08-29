@@ -10,3 +10,14 @@ function toTitleCase(str) {
 const sentence = "hello world! this is a title case example.";
 const titleCased = toTitleCase(sentence);
 console.log(titleCased); // Output: "Hello World! This Is A Title Case Example."
+
+function factorial(n){
+       if(n <= 0){
+         return "Number Should Be More than 0"
+       }
+       if(n === 0 || n === 1){
+         return 1;
+       }
+      return n*factorial(n-1);
+}
+console.log(factorial(12));

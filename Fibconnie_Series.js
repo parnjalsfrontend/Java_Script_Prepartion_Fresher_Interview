@@ -48,16 +48,25 @@ console.log(fibconni(n));*/
     }
     return fb;
 }
-let boom = 14;
-console.log(fibconni(boom))*/
+// let boom = 14;
+// console.log(fibconni(boom))*/
 
- function fibconni(n){
+//  function fibconni(n){
+//     let fibr = [0,1];
+//     for(i=2;i<n;i++){
+//          fibr[i] = fibr[i-1] + fibr[i-2];
+//     }
+//     return fibr;
+// }
+//  let b = 14;
+// console.log(fibconni(b));
+
+function fibconni(n){
     let fibr = [0,1];
     for(i=2;i<n;i++){
-         fibr[i] = fibr[i-1] + fibr[i-2];
+        fibr[i]=fibr[i-1] + fibr[i-2];
     }
     return fibr;
 }
- let b = 14;
+let b = 14;
 console.log(fibconni(b));
-
